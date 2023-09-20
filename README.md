@@ -1,0 +1,14 @@
+# barbet_beta-user 14 U1B1.230908.003 10811961 release-keys
+- manufacturer: google
+- platform: lito
+- codename: barbet
+- flavor: barbet_beta-user
+- release: 14
+- id: U1B1.230908.003
+- incremental: 10811961
+- tags: release-keys
+- fingerprint: google/barbet_beta/barbet:14/U1B1.230908.003/10811961:user/release-keys
+- is_ab: true
+- brand: google
+- branch: barbet_beta-user-14-U1B1.230908.003-10811961-release-keys
+- repo: google_barbet_dump
