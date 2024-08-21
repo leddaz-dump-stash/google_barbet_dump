@@ -1,0 +1,11 @@
+<!--
+    Input:
+        device/google/barbet/vibrator/drv2624/android.hardware.vibrator-service.barbet.xml
+-->
+<manifest version="8.0" type="device">
+    <hal format="aidl">
+        <name>android.hardware.vibrator</name>
+        <version>2</version>
+        <fqname>IVibrator/default</fqname>
+    </hal>
+</manifest>
