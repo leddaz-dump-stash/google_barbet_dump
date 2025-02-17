@@ -1,0 +1,11 @@
+<!--
+    Input:
+        device/google/barbet/usb/gadget/android.hardware.usb.gadget@1.1-service.barbet.xml
+-->
+<manifest version="8.0" type="device">
+    <hal format="hidl">
+        <name>android.hardware.usb.gadget</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.1::IUsbGadget/default</fqname>
+    </hal>
+</manifest>

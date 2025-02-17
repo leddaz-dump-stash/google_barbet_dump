@@ -1,0 +1,31 @@
+<!--
+    Input:
+        hardware/qcom/sm7250/display/composer/vendor.qti.hardware.display.composer-service.xml
+-->
+<manifest version="8.0" type="device">
+    <hal format="hidl">
+        <name>android.hardware.graphics.composer</name>
+        <transport>hwbinder</transport>
+        <fqname>@2.4::IComposer/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.display.color</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.5::IDisplayColor/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.display.config</name>
+        <transport>hwbinder</transport>
+        <fqname>@2.0::IDisplayConfig/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.display.postproc</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IDisplayPostproc/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.qti.hardware.display.composer</name>
+        <transport>hwbinder</transport>
+        <fqname>@3.0::IQtiComposer/default</fqname>
+    </hal>
+</manifest>

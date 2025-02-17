@@ -1,0 +1,11 @@
+<!--
+    Input:
+        hardware/interfaces/health/storage/1.0/default/manifest_android.hardware.health.storage@1.0.xml
+-->
+<manifest version="8.0" type="device">
+    <hal format="hidl">
+        <name>android.hardware.health.storage</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IStorage/default</fqname>
+    </hal>
+</manifest>
