@@ -1,0 +1,7 @@
+(typeattributeset pixelsystemservice_app_202404 (pixelsystemservice_app))
+(expandtypeattribute (pixelsystemservice_app_202404) true)
+(typeattribute pixelsystemservice_app_202404)
+(typeattributeset turbo_adapter_202404 (turbo_adapter))
+(expandtypeattribute (turbo_adapter_202404) true)
+(typeattribute turbo_adapter_202404)
+
